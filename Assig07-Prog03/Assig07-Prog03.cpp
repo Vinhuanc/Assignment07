@@ -2,18 +2,17 @@
 #include<iostream>
 
 using namespace std;
+
 int num=45;
+
 void repchar(){
     char a='*';
-    int num;
-    for(int i=0; i<=45; i++){
+    for(int i=0; i<=num; i++){
         cout<<a;
         i++;
        
     }
 }
-
-
 
 void repchar(char a){
     for(int i=0; i<=num; i++){
@@ -30,7 +29,6 @@ void repchar(char a, int num){
 }
 
 int main(){
-
     repchar();
     cout<<"          "<<endl;
     repchar('=');
@@ -39,4 +37,3 @@ int main(){
     cout<<"          "<<endl;
 }
 
-//

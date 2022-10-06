@@ -37,3 +37,14 @@ int main(){
     cout<<"          "<<endl;
 }
 
+//Program #3
+//Create three defintions for an overloaded function repchar().
+//• Call each of the repchar definitions as follows: 1. repchar();
+//2. repchar('=');
+//3. repchar('+', 30);
+//• This program will be different from Program 2, as you will not use any default
+//arguments, and will instead overload the function repchar three times. Sample Output:
+//*********************************************
+//=============================================
+//++++++++++++++++++++++++++++++
+//Press any key to continue . . .

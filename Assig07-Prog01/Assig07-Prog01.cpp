@@ -53,7 +53,7 @@ int main(){
         case 2:
             cout<< "Enter two numbers you want to subtract: "<<endl;
             cin>>num1>>num2;
-            cout<<"The numbers subtracted are: "<<setprecision(2)<<fixed<<subtract(num1,num2)<<endl;
+            cout<<"The numbers subtracted are: "<<setprecision(2)<<fixed<<subtract(num1,num2)<<endl;ret
             cout<<"                        "<<endl;
             displayMenu();
         case 3:
@@ -73,3 +73,38 @@ int main(){
             return 0;
     }
 }
+
+//Program #1:
+//Write a program that uses a function displayMenu to display the following menu:
+//Math Program:
+//1. Add two numbers
+//2. Subtract two numbers 3. Multiply two numbers 4. Divide two numbers 5. Quit
+//When the user selects one of the options, the program will prompt them to input two numbers. It will then pass these numbers to a function, which will do the calculation and return the desired result.
+//• There should be one function for each of the four non-quit menu options. The program will then output the correct answer.
+//• The function names should be named in a way that corresponds to their action (add, subtract, multiply, and divide).
+//• All of these functions should accept two floating point numbers, and return a floating point number.
+//• Display all results to 2 significant digits.
+//• All input and output with the user should be done in the main function.
+//1. The user is expected to input both numbers at the same time
+//• The program should loop until the user selects option 5 (Quit), and should be notified if
+//they do not pick an option between 1 and 5.
+//
+//Sample Output:
+//Math Program:
+//1. Add two numbers
+//2. Subtract two numbers 3. Multiply two numbers 4. Divide two numbers 5. Quit
+//Choice: 0
+//You must choose between 1 and 5! Math Program:
+//1. Add two numbers
+//2. Subtract two numbers 3. Multiply two numbers 4. Divide two numbers 5. Quit
+//Choice: 2
+//Please enter two numbers: 4.5815 5.8481 The numbers subtracted are -1.27
+//Math Program:
+//1. Add two numbers
+//2. Subtract two numbers 3. Multiply two numbers 4. Divide two numbers 5. Quit
+//Choice: 3
+//Please enter two numbers: 8 2 The numbers multiplied are 16.00 Math Program:
+//1. Add two numbers
+//2. Subtract two numbers 3. Multiply two numbers 4. Divide two numbers 5. Quit
+//Choice: 5
+//Thanks for using the program! Press any key to continue . . .
